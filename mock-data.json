@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -82.5001,
+    "lat": 28.7505
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 26.02,
+    "feels_like": 26.02,
+    "temp_min": 25.44,
+    "temp_max": 27.14,
+    "pressure": 1019,
+    "humidity": 63,
+    "sea_level": 1019,
+    "grnd_level": 1016
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.69,
+    "deg": 80,
+    "gust": 8.23
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1728662849,
+  "sys": {
+    "type": 2,
+    "id": 2021193,
+    "country": "US",
+    "sunrise": 1728646119,
+    "sunset": 1728687853
+  },
+  "timezone": -14400,
+  "id": 4155751,
+  "name": "Florida",
+  "cod": 200
+}

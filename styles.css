@@ -1,29 +1,16 @@
 body{
-  background-color: black;
   color: white;
   font-family: "Inter";
+  background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+
 }
 
-.t1 {
-  display: flex;
-  font-weight: 500;
-  font-size: 30px;
-  width: 500px;
-  height: 10vh;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 40px;
-  margin-bottom: -100px;
-}
+
 
 .card{
   width: 90%;
+  height: 87vh;
   margin: 0 auto;
-  max-width: 470px;
-  background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
-  margin: 100px auto 0;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -99,7 +86,7 @@ body{
 
 
 .col img{
-  width: 60px;
+  width: 70px;
   margin-right: 20px;
 
 
@@ -118,8 +105,21 @@ body{
 
 
 .col2 img{
-  width: 50px;
+  width: 70px;
   margin-right: 10px;
 
 
+}
+
+.weather{
+  display: none;
+}
+
+.error{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 25px;
+  margin-top: 10px;
+  display: none;
+  color: red;
 }
