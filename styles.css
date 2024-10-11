@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+}
+
+.t1 {
+  display: flex;
+  font-weight: 500;
+  width: 15vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+}
