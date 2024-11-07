@@ -6,7 +6,7 @@ const weather = document.querySelector(".weather-icon")
 
 
 async function checkWeather(city) {
-
+  // call the api
   const url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${apiKey}`
 
   const response = await fetch(url)
